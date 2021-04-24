@@ -7,10 +7,10 @@ const questions = [];
 
 const generateReadMeContent = (data, licenseBadgeId, licenseInfo) =>
 
-`Repository Title: ${data.title}                    ![alt text](images/${licenseBadgeId}.svg)
+`${data.title}                    ![alt text](images/${licenseBadgeId}.svg)
 
 Description
-    - ${data.motivaion} 
+    - ${data.motivation} 
     - ${data.problem} 
     - ${data.learn} 
 
@@ -18,6 +18,7 @@ Table of Contents
     - [Installation](#installation)
     - [Usage](#usage)
     - [Credits](#credits)
+    - [Questions](#questions)
     - [License](#license)
 
 ##Installation
@@ -28,6 +29,9 @@ ${data.usage}
 
 ##Credits
 ${data.credits}
+
+##Questions
+If you have any questions, please contact me at my GitHub account: ${data.github} or my email: ${data.email}
 
 ##License
 ${licenseInfo}
@@ -86,6 +90,16 @@ inquirer
             type: 'input',
             name: 'year',
             message: 'What is the current year',
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'What is your GitHub account',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email',
         },
 
     ])

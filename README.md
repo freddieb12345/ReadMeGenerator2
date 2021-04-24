@@ -1,14 +1,16 @@
-Repository Title: ReadMeGenerator2                    ![alt text](images/MIT.svg)
+ReadMeGenerator2
+![alt text](images/MIT.svg)
 
 Description
     - undefined 
-    - This solves the problem of having to manually to create a README file for each individual project 
-    - From this project, I learned how to store user input data into a text file using node 
+    - This solves the problem of having to manually create a README file for each individual project 
+    - From this project, I learned how to store user input data into a text file using node  
 
 Table of Contents
     - [Installation](#installation)
     - [Usage](#usage)
     - [Credits](#credits)
+    - [Questions](#questions)
     - [License](#license)
 
 ##Installation
@@ -18,7 +20,10 @@ In order to use this projects, you must first install node and the repo onto you
 In order to use the application, you must again, navigate to the repo on your command line and then run the command "node index.js" and then respond the the prompts.
 
 ##Credits
-Freddie Brewin https://github.com/freddieb12345
+Freddie Brewin
+
+##Questions
+If you have any questions, please contact me at my GitHub account: https://github.com/freddieb12345 or my email: freddiebrewin@live.com
 
 ##License
 Copyright 2021 Freddie Brewin 
